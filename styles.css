@@ -1,0 +1,43 @@
+body {
+  background-image: url(./y-so-serious-white.png)
+}
+header{
+  font-family: arial;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+footer {
+  font-family: garamond;
+  font-size: 20px;
+  font-weight: bold;
+}
+tbody {
+  border-spacing: 0 8px;
+}
+th {
+  font-family: helvetica;
+  font-size: 30px;
+  color: white;
+  background-color: #AF7AC5;
+  opacity: 79%
+  padding: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+td {
+  font-family: helvetica;
+  font-size: 25px;
+  padding: 4px;
+}
+.tag {
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+  padding: 5px;
+}
+.background {
+  background-color:rgba(84, 153, 199, 0.23);
+}
+tr:nth-child(even) {background: white;}
+tr:nth-child(odd) {background: #D1F2EB}
